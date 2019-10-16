@@ -1,0 +1,8 @@
+prefix=/home/agv/Liu_Program/iAGV/install
+
+Name: agv_robot_description
+Description: Description of agv_robot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/agv/Liu_Program/iAGV/install/lib 
+Requires: 

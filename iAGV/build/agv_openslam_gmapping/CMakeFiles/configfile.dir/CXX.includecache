@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/agv/Liu_Program/iAGV/src/agv_openslam_gmapping/configfile/configfile.cpp
+cstdlib
+-
+gmapping/configfile/configfile.h
+/home/agv/Liu_Program/iAGV/src/agv_openslam_gmapping/configfile/gmapping/configfile/configfile.h
+fstream
+-
+iostream
+-
+string
+-
+sstream
+-
+iostream
+-
+ctype.h
+-
+

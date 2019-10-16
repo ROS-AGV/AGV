@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<robot>
+  <gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+      <robotNamespace>/mrobot</robotNamespace>
+      <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+    </plugin>
+  </gazebo>
+
+  <gazebo reference="base_link">
+    <material>Gazebo/orange</material>
+  </gazebo>
+
+  <gazebo reference="wheel1_link">
+    <material>Gazebo/black</material>
+  </gazebo>
+
+  <gazebo reference="wheel2_link">
+    <material>Gazebo/black</material>
+  </gazebo>
+
+  <gazebo reference="wheel3_link">
+    <material>Gazebo/black</material>
+  </gazebo>
+
+  <gazebo reference="wheel4_link">
+    <material>Gazebo/black</material>
+  </gazebo>
+</robot>

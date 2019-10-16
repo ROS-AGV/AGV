@@ -1,0 +1,8 @@
+prefix=/home/agv/Liu_Program/iAGV/install
+
+Name: agv_gmapping
+Description: Description of agv_gmapping
+Version: 1.4.0
+Cflags: 
+Libs: -L/home/agv/Liu_Program/iAGV/install/lib 
+Requires: 

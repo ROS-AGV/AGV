@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/agv/Liu_Program/iAGV/src/agv_openslam_gmapping/utils/movement.cpp
+gmapping/utils/movement.h
+/home/agv/Liu_Program/iAGV/src/agv_openslam_gmapping/utils/gmapping/utils/movement.h
+gmapping/utils/gvalues.h
+/home/agv/Liu_Program/iAGV/src/agv_openslam_gmapping/utils/gmapping/utils/gvalues.h
+
+/home/agv/Liu_Program/iAGV/src/agv_openslam_gmapping/utils/stat.cpp
+stdlib.h
+-
+math.h
+-
+gmapping/utils/stat.h
+/home/agv/Liu_Program/iAGV/src/agv_openslam_gmapping/utils/gmapping/utils/stat.h
+

@@ -1,0 +1,8 @@
+prefix=/home/agv/Liu_Program/iAGV/devel
+
+Name: agv_openslam_gmapping
+Description: Description of agv_openslam_gmapping
+Version: 0.2.1
+Cflags: -I/home/agv/Liu_Program/iAGV/src/agv_openslam_gmapping/include
+Libs: -L/home/agv/Liu_Program/iAGV/devel/lib -lutils -lsensor_base -lsensor_odometry -lsensor_range -llog -lconfigfile -lscanmatcher -lgridfastslam
+Requires: 

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="link_to_laser" args="0 0 0 0 0 0 /base_link /base_laser 100" />
+    <node pkg="tf" type="static_transform_publisher" name="footprint_to_link" args="0 0 0 0 0 0 /base_footprint /base_link 100" />
+    <node pkg="agv_robot" type="base_controller" name="base_controller"/>
+    <node pkg="agv_laser_scan" type="laser_scan" name="laser_scan" args="scan:=base_scan"/>
+
+    <!--<arg name="model" default="$(find xacro)/xacro '$(find agv_robot)/urdf/mrobot_with_rplidar.urdf.xacro'" />
+    <arg name="gui" default="true" />
+
+    <param name="robot_description" command="$(arg model)" /-->
+
+    <!-- 设置GUI参数，显示关节控制插件 -->
+    <!--param name="use_gui" value="$(arg gui)"/-->
+
+    <!-- 运行joint_state_publisher节点，发布机器人的关节状态  -->
+    <!--<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" /-->
+
+    <!-- 运行robot_state_publisher节点，发布tf  -->
+    <!--node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" /-->
+
+</launch>

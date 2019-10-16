@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/agv/Liu_Program/iAGV/src/agv_openslam_gmapping/sensor/sensor_base/sensor.cpp
+gmapping/sensor/sensor_base/sensor.h
+/home/agv/Liu_Program/iAGV/src/agv_openslam_gmapping/sensor/sensor_base/gmapping/sensor/sensor_base/sensor.h
+
+/home/agv/Liu_Program/iAGV/src/agv_openslam_gmapping/sensor/sensor_base/sensorreading.cpp
+gmapping/sensor/sensor_base/sensorreading.h
+/home/agv/Liu_Program/iAGV/src/agv_openslam_gmapping/sensor/sensor_base/gmapping/sensor/sensor_base/sensorreading.h
+

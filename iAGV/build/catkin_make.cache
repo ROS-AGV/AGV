@@ -1,0 +1,2 @@
+agv_gmapping:agv_laser_scan:agv_openslam_gmapping:agv_robot:agv_slam_gmapping:agv_teleop
+-DCATKIN_DEVEL_PREFIX=/home/agv/Liu_Program/iAGV/devel -DCMAKE_INSTALL_PREFIX=/home/agv/Liu_Program/iAGV/install -G Unix Makefiles
